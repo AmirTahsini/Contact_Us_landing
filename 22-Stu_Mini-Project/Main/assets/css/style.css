@@ -13,15 +13,11 @@ footer {
 
 }
 
-header {
-    width: 100%;
-}
 
-#page_title {
+.title {
     color: blue;
     text-align: center;
-    font-size: 40px;
-    width: 100%;
+    font-size: 30px;
 
 }
 
@@ -30,15 +26,13 @@ header {
    
 }
 
-#image {
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+.image {
+    display: inline;
+    text-align: center;
 }
 
 .contact-form {
-    position: relative
+    position: relative;
     display: block;
     width: 50%;
     margin-right: auto;
